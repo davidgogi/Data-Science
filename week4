@@ -1,0 +1,17 @@
+
+Prospects for Opening a Business in San Francisco
+The Objective
+
+San Francisco is a notoriously expensive location for individuals and businesses alike. Median rent prices were \$3,500 a month in January 2020 and median home price was \\$1.3 million, far above the national medians of \$1,200 and \\$285,000, respectively (source: Zillow for rent price, Trullia for housing price). Business Insider reports that, to buy a home in San Francisco, one would need to earn \$303,000 a year.
+
+San Francisco's high cost of living is due to its proximity to Silicon Valley. As a result, the high expenses have not discouraged tech employees from living in or in areas close to San Francisco. With this in mind, what are the business prospects for a company looking to locate itself in this expensive city by the bay? Although San Francisco is a relatively compact city compared to others in America, there are still 27 zip codes in San Francisco County (which exclusively covers the city of San Francisco and very close communities in the bay).
+
+The goal of this project is to analyze the various neighborhoods in San Francisco to see what types of venues are present in order to assess which neighborhood would be most ideal for starting a new business. The Foursquare API will be used to gather information about theses venues. The justification for using venue data is that if there are a larger number of businesses, especially those that are doing well in a neighborhood, the greater the chance that there is a thriving neighborhood with prospective clients interested in becoming customers at a new, service-based business. As such, our main audience for this report will be prospective service-based businesses such as restaurants, coffee shops, or retail stores. While the presence of similar venues may signal increased competition, it also signals greater potential for customers as well.
+The Data for Analysis
+
+Data will come from:
+
+    Foursquare API, where we will gather venue data about neighhorhoods
+    The neighborhoods are defined by the list of zip codes from zipcodemaps.com, specifically those that are listed in the non-unique section of the website and have population numbers. The site also provides GPS coordinates for each neighborhood
+
+Foursquare will provide not just the top 100 venues in these neighborhoods, but also give a sense of the quality of venues (through the tips system) in these neighborhoods. The quality of these venues suggested by the tips system will allow us to compile an overall score based on the number and quality of venues that will be used to compare the neighborhoods and their potential as new business locations. Maps visualizing the location of the top venues in each neighborhood will also be provided as a means of assessing the proximity of these venues to each other. This density of venues can also be crucial for analysis, as closer proximity venues suggests more potential customers in each location.
